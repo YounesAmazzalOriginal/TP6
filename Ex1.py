@@ -1,4 +1,4 @@
-"""
+
 ## ================ 1 ================
 ## Creation d'un mot aprés l'ajoute le longeur  
 # mot = ""
@@ -11,10 +11,9 @@
 #     i += 1
 
 # print(mot)
-"""
 
 
-"""
+
 ## ================ 2 ================
 # Longeur de mot
 mot = "INFO S1 FSSM"
@@ -30,17 +29,14 @@ print(mot[:5:])
 for index in range(len(mot)) :
     if index % 2 == 0 :
         print(mot[index])
-"""
 
 
-"""
+
 ## ================ 3 ================
 mot = "INFO S1 FSSM"
 for letter in mot :
     print(letter , end='*')
-"""
 
-"""
 ## ================ 4 ================
 mot = "INFO S1 FSSM"
 aux = list(mot)
@@ -53,4 +49,3 @@ for letter in aux :
 
 print(f"Mot2 modifiant : {mot2}")
 print(type(mot2))
-"""
