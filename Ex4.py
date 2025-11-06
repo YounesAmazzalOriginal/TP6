@@ -9,15 +9,15 @@ notes_etudiants = {
 
 
 # ========= 2 =========
-# for key in notes_etudiants :
-#     notes = notes_etudiants[key]
+ for key in notes_etudiants :
+     notes = notes_etudiants[key]
     
-#     print(key , end=" ")
+     print(key , end=" ")
     
-#     for note in notes :
-#         print(note , end=" ")
+     for note in notes :
+         print(note , end=" ")
     
-#     print()
+     print()
 
 
 # ========= 3 =========
@@ -35,3 +35,4 @@ for key in notes_etudiants :
         # rounde pour prendre just 2 point apre la virgule
     print(f"{key} : {m}")
     s , m = 0 , 0
+
